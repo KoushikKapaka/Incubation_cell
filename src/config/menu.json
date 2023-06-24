@@ -1,0 +1,91 @@
+{
+  "main": [
+    {
+      "name": "HOME",
+      "url": "/"
+    },
+    {
+      "name": "ABOUT US",
+      "url": "/about",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Our Success Stories",
+          "url": "/contact"
+        },
+        {
+          "name": "Startup Policy",
+          "url": "/contact"
+        },
+        {
+          "name": "Our Team",
+          "url": "/contact"
+        }
+      ]
+    },
+    {
+      "name": "PROGRAMS",
+      "url": "/elements"
+    },
+    {
+      "name": "EVENTS",
+      "url": "/elements"
+    },
+    {
+      "name": "GALLERY",
+      "url": "/elements"
+    },
+    {
+      "name": "CONTACT US",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Idea Submission",
+          "url": "/contact"
+        }
+      ]
+    },
+    {
+      "name": "NEWS",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Contact",
+          "url": "/contact"
+        },
+        {
+          "name": "Blog",
+          "url": "/blog"
+        },
+        {
+          "name": "Authors",
+          "url": "/authors"
+        },
+        {
+          "name": "Categories",
+          "url": "/categories"
+        },
+        {
+          "name": "Search",
+          "url": "/search"
+        },
+        {
+          "name": "404 Page",
+          "url": "/404"
+        }
+      ]
+    }
+  ],
+  "footer": [
+    {
+      "name": "Elements",
+      "url": "/elements"
+    },
+    {
+      "name": "Privacy Policy",
+      "url": "/privacy-policy"
+    }
+  ]
+}
