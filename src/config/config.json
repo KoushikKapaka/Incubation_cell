@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Incubation Cell",
+    "title": "GCET- Incubation Cell",
     "base_url": "https://localhost:3000",
     "base_path": "/",
     "trailing_slash": false,

@@ -23,25 +23,21 @@ const Home = () => {
   return (
     <>
       <SeoMeta />
-      <section className="section pt-14">
-        <div className="container">
-          <div className="row justify-center">
-            {banner.image && (
-              <div className="col-12">
-                <ImageFallback
-                  src={banner.image}
-                  className="mx-auto"
-                  width="800"
-                  height="420"
-                  alt="banner image"
-                  priority
-                />
-              </div>
-            )}
+      <section>
+        {banner.image && (
+          <div className="col-12">
+            <ImageFallback
+              src={banner.image}
+              className="h-100vh w-full object-cover mx-auto"
+              width="800"
+              height="420"
+              alt="banner image"
+              priority
+            />
           </div>
-        </div>
+        )}
       </section>
-      <section className="section pt-14">
+      {/* <section className="section pt-14">
         <div className="container">
           <div className="row justify-center">
             <div className="mb-16 text-center lg:col-7">
@@ -73,7 +69,7 @@ const Home = () => {
             )}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {features.map((feature, index: number) => (
         <section
