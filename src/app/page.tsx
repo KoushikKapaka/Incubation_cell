@@ -25,15 +25,20 @@ const Home = () => {
       <SeoMeta />
       <section>
         {banner.image && (
-          <div className="col-12">
-            <ImageFallback
-              src={banner.image}
-              className="w-100vh  object-cover mx-auto"
-              width="800"
-              height="420"
-              alt="banner image"
-              priority
-            />
+          <div className="mx-auto max-w-7xl px-4 sm:px-6">
+            <div className="pb-12 md:py-20">
+              <div className="pb-12 md:py-20">
+                <ImageFallback
+                  src={banner.image}
+                  className="mx-auto h-auto w-full rounded-md bg-gray-400 "
+                  sizes="(max-width: 64rem) 100vw, 1024px"
+                  width="800"
+                  height="400"
+                  alt="banner image"
+                  priority
+                />
+              </div>
+            </div>
           </div>
         )}
       </section>
@@ -70,7 +75,55 @@ const Home = () => {
           </div>
         </div>
       </section> */}
+      <section className={"section-sm  bg-gradient "}>
+        <div className="container ">
+          <div className="row items-center justify-between">
+            <div className={`mb:md-0 mb-6 md:col-5 `}>
+              <ImageFallback
+                src={banner.image}
+                height={480}
+                width={520}
+                alt={banner.title}
+              />
+            </div>
+            <div className="text-justify md:col-7 lg:col-6">
+              <h3
+                className="mb-3"
+                dangerouslySetInnerHTML={markdownify(banner.title)}
+              />
+              <hr></hr>
+              <p
+                className="mt-1 mb-8 text-lg text-h5 font-sans font-medium"
+                dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
+              />
+            </div>
 
+            {/* <div className={`md:col-7 lg:col-6 `}>
+              <h2
+                className="mb-4"
+                dangerouslySetInnerHTML={markdownify(feature.title)}
+              />
+              <p
+                className="mb-8 text-lg"
+                dangerouslySetInnerHTML={markdownify(feature.content)}
+              />
+              <ul>
+                {feature.bulletpoints.map((bullet: string) => (
+                  <li className="relative mb-4 pl-6" key={bullet}>
+                    <FaCheck className={"absolute left-0 top-1.5"} />
+                    <span dangerouslySetInnerHTML={markdownify(bullet)} />
+                  </li>
+                ))}
+              </ul>
+              {feature.button.enable && (
+                <a className="btn btn-primary mt-5" href={feature.button.link}>
+                  {feature.button.label}
+                </a>
+              )}
+            </div> */}
+          </div>
+        </div>
+      </section>
       {features.map((feature, index: number) => (
         <section
           key={index}

@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Next Project"
-  content: "Nextplate is a free starter template built with Next and TailwindCSS, providing everything you need to jumpstart your Next project and save valuable time."
+  title: "GCET - Incubation Center"
+  content: "GCET - Incubation Center was established in the year 2014 and has been working under the guidelines of Institution Innovation Council (IIC) , Ministry of Education, New Delhi and JHuB of Jawaharlal Nehru Technological University Hyderabad (JNTUH). It has implemented a strategic plan as early as Dec 2017 to support innovation and entrepreneurship ecosystem in the college and currently working towards adopting a policy on Innovation and StartUp policy in line with the National innovation and Start up policy (NISP)."
   image: "/images/banner.png"
   button:
     enable: true
