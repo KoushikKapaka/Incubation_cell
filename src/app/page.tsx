@@ -26,8 +26,8 @@ const Home = () => {
       <section>
         {banner.image && (
           <div className="mx-auto max-w-7xl px-4 sm:px-6">
-            <div className="pb-12 md:py-20">
-              <div className="pb-12 md:py-20">
+            <div className=" pt-1 md:pb-1">
+              <div className="md:pt-1">
                 <ImageFallback
                   src={banner.image}
                   className="mx-auto h-auto w-full rounded-md bg-gray-400 "
@@ -124,7 +124,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {features.map((feature, index: number) => (
+      {/* {features.map((feature, index: number) => (
         <section
           key={index}
           className={`section-sm ${index % 2 === 0 && "bg-gradient"}`}
@@ -179,7 +179,7 @@ const Home = () => {
       ))}
 
       <Testimonials data={testimonial} />
-      <CallToAction data={callToAction} />
+      <CallToAction data={callToAction} /> */}
     </>
   );
 };
