@@ -28,7 +28,7 @@ const Home = () => {
           <div className="col-12">
             <ImageFallback
               src={banner.image}
-              className="h-100vh w-full object-cover mx-auto"
+              className="w-100vh  object-cover mx-auto"
               width="800"
               height="420"
               alt="banner image"

@@ -28,7 +28,9 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <header className={`header  ${settings.sticky_header && "sticky top-0"}`}>
+    <header
+      className={`header z-30 ${settings.sticky_header && "sticky top-0"}`}
+    >
       <nav className="navbar container">
         {/* logo */}
         <div className="order-0">
