@@ -24,7 +24,7 @@
     "copyright": "Designed And Developed by Incubation Cell GCET"
   },
   "navigation_button": {
-    "enable": true,
+    "enable": false,
     "label": "Get Started",
     "link": "https://gcet.edu.in"
   },

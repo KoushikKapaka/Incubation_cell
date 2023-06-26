@@ -36,7 +36,7 @@ const Home = () => {
                   sizes="(max-width: 64rem) 100vw, 1024px"
                   width="800"
                   height="400"
-                  alt="banner image"
+                  alt="GCET"
                   priority
                 />
               </div>
@@ -96,7 +96,6 @@ const Home = () => {
                 dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
               />
             // </div> */}{" "}
-      */
       {/* <div className={`md:col-7 lg:col-6 `}>
               <h2
                 className="mb-4"

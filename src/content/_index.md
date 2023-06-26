@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "GCET - Incubation Center"
-  image: "/images/banner.png"
+  image: "/images/banner/banner.png"
 
 # Features
 features:
@@ -11,7 +11,7 @@ features:
     content: "GCET - Incubation Center was established in the year 2014 and has been working under the guidelines of Institution Innovation Council (IIC) , Ministry of Education, New Delhi and JHuB of Jawaharlal Nehru Technological University Hyderabad (JNTUH). It has implemented a strategic plan as early as Dec 2017 to support innovation and entrepreneurship ecosystem in the college and currently working towards adopting a policy on Innovation and StartUp policy in line with the National innovation and Start up policy (NISP)."
 
   - title: "VISION AND MISSION"
-    image: "/images/service-1.jpeg"
+    image: "/images/service-2.png"
     content: "The goal of establishing an Incubation Center at the college is to create an atmosphere for students and faculty to produce, grow and commercialize the ideas of creative students through appropriate training, mentoring. Forming a multi-sector, diverse team that can use a wide variety of instruments and methodologies such as design thinking, solution for concept management, open innovation, crowd sourcing and human centric design to help the community ideate, guide discussions, prototypes and solutions and create employment creators"
 
   - title: "ACTIVITIES"

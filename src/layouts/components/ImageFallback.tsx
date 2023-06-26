@@ -15,7 +15,7 @@ const ImageFallback = (props: any) => {
   return (
     <Image
       {...rest}
-      src={"/images/banner.png"}
+      src={imgSrc}
       onError={() => {
         setImgSrc(fallback);
       }}
